@@ -1,0 +1,8 @@
+{
+  "generator-terraform-environments": {
+    "promptValues": {
+      "environments": "lab, development, deployment, production",
+      "components": "besu, amqp, kafka, persistance, container, pod, cluster, corporate, pipe, failover, system"
+    }
+  }
+}

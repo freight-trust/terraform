@@ -1,0 +1,23 @@
+{
+  "name": "toolchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "generator-terraform": "git+https://git@github.com/newcontext-oss/generator-terraform.git",
+    "generator-tf-module": "^0.6.0",
+    "terraform2md": "^0.1.4",
+    "terrahub": "^0.4.28"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^8.0.1",
+    "terraunit": "^1.7.2",
+    "yo": "^3.1.1"
+  }
+}
